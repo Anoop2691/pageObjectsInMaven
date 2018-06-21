@@ -15,7 +15,7 @@ public class TestCookieHandlingPage {
 	private WebElement GenerateToken;
 	@FindBy(id = "token")
 	private WebElement TakeTokenValueGenerated;
-	@FindBy(className="Finish")
+	@FindBy(className="finish")
 	WebElement Finish;
 	public TestCookieHandlingPage(WebDriver driver) {
 		this.driver=driver;
